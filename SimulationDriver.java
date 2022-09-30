@@ -69,7 +69,7 @@ public class SimulationDriver {
 		iVoteSimulator.totalAns(4);
 
 		//Display the question and answer, which can only submit one answer
-		Question singleAnsQs = new Question("*********Choose ONLY one correct answer*********\nWhat is the capital city of Indonesia?\n A: Sydney \n B: Jakarta \n C: Bogor\n", "B");
+		Question singleAnsQs = new Question("*********Choose only ONE correct answer*********\nWhat is the capital city of Indonesia?\n A: Sydney \n B: Jakarta \n C: Bogor\n", "B");
 		System.out.println(singleAnsQs.getQs());
 		
 		for (int i = 0; i < totalStudents; i++) {
