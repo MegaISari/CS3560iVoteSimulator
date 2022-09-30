@@ -44,9 +44,9 @@ public class Voting implements VotingService {
     //showing how many try the students submitted their answers 
     public void submittedAnsShowed(int ID) {
 		if (totalSubmission == 1){
-			System.out.println("ID(" + ID + "): " + totalSubmission + " try.");
+			System.out.println("ID(" + ID + ") (Re)-Submitted: " + totalSubmission + " try.");
 		} else {
-			System.out.println("ID(" + ID + "): "  + totalSubmission + " tries.");
+			System.out.println("ID(" + ID + ") (Re)-Submitted: "  + totalSubmission + " tries.");
 		}
 	}
 
